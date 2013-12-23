@@ -52,8 +52,11 @@ Section "Main Files (required)"
 	; Put file there
 	File "bin\release\*.exe"
 	File "bin\release\*.dll"
-	File /r "bin\platforms"
-
+	CreateDirectory "$INSTDIR\platforms"
+	SetOutPath "$INSTDIR\platforms"
+	File "bin\release\platforms\*.dll"
+	SetOutPath $INSTDIR
+	
 	;Write application settings into registry
 	WriteRegStr HKCU "SOFTWARE\GENiEBEN\QuickLOD" "InstallLocation" "$INSTDIR"
 	WriteRegStr HKCU "SOFTWARE\GENiEBEN\QuickLOD" "AMD" "0"

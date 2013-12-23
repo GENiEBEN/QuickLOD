@@ -6,4 +6,4 @@ It will support NVIDIA cards when they fix their nvapi (never).
 
 Notes:
 * To close the hotkeys monitor, press Ctrl+Alt+0 on your keyboard.
-* The hotkeys monitor is written in AutoHotkey and will most probably trigger false-positives in some antivirus software. Get the source code and compile it yourself if in doubt.
+* The hotkeys monitor is written in AutoHotkey and will trigger false-positives with some antivirus software. Get the source code and compile it yourself if in doubt.
