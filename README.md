@@ -1,4 +1,4 @@
-quick-lod
+QuickLOD
 =========
 
 This tool allows you to change Level Of Detail for ATi/AMD cards on the fly (in-between GT loading screens i.e). 
